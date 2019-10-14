@@ -1,0 +1,25 @@
+{
+  "name": "fx-watch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@d3fc/d3fc-chart": "^2.6.14",
+    "@d3fc/d3fc-extent": "^3.1.6",
+    "@d3fc/d3fc-series": "^4.0.29",
+    "d3": "^5.12.0",
+    "next": "^9.1.1",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.12",
+    "@types/react": "^16.9.5",
+    "typescript": "^3.6.4"
+  }
+}
