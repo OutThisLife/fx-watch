@@ -4,11 +4,10 @@
   "builds": [
     {
       "src": "next.config.js",
-      "use": "@now/next"
+      "use": "@now/next",
+      "env": {
+        "API_PROVIDER": "@api_provider"
+      }
     }
-  ],
-
-  "env": {
-    "API_PROVIDER": "@api_provider"
-  }
+  ]
 }
