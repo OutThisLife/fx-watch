@@ -39,10 +39,9 @@ export default () => {
 
   const getData = useCallback(async () => {
     try {
-      const [x = 'USD', y] = location.search
-        .split('?s=')
-        .pop()
-        .split('/')
+      const [x, y] = (location.search.split('?s=').pop() || 'USD/CAD').split(
+        '/'
+      )
 
       const res: Item[] = await (await fetch(`/api/quote?x=${x}&y=${y}`)).json()
 
