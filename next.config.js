@@ -1,5 +1,5 @@
 module.exports = {
   env: {
-    API_PROVIDER: process.env.API_PROVIDER
+    ALPHA_API_KEY: process.env.ALPHA_API_KEY
   }
 }

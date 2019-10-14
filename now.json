@@ -8,11 +8,11 @@
     }
   ],
   "env": {
-    "API_PROVIDER": "@api_provider"
+    "ALPHA_API_KEY": "@alpha-api-key"
   },
   "build": {
     "env": {
-      "API_PROVIDER": "@api_provider"
+      "ALPHA_API_KEY": "@alpha-api-key"
     }
   }
 }
