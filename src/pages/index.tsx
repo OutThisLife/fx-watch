@@ -1,5 +1,7 @@
+import data from '@/lib/sample.json'
+
 export default () => {
-  return (
-    <div>hi!</div>
-  )
+  console.log({ data })
+
+  return <div>hi!</div>
 }

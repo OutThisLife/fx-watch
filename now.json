@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "fx-watch",
+  "builds": [
+    {
+      "src": "next.config.js",
+      "use": "@now/next"
+    }
+  ]
+}
