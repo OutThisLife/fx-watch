@@ -6,5 +6,9 @@
       "src": "next.config.js",
       "use": "@now/next"
     }
-  ]
+  ],
+
+  "env": {
+    "API_PROVIDER": "@api_provider"
+  }
 }
