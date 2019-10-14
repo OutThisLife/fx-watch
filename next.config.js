@@ -1,9 +1,9 @@
 require('dotenv').config()
 
-const { API_PROVIDER } = process.env
+const { api_provider } = process.env
 
 module.exports = {
   serverRuntimeConfig: {
-    API_PROVIDER
+    api_provider
   }
 }
